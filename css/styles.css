@@ -196,6 +196,7 @@ color: #ffffff;
     border-radius: 4px;
     border: 1px solid #8E8F99;
     background-color: #F4F4FD;
+    margin-bottom: 8px;
 }
 .picture-link-icon{
     width: 64px;
@@ -248,6 +249,10 @@ color: #ffffff;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
+    box-shadow: 
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .list-socialmedia{
     display: flex;
@@ -357,7 +362,8 @@ color:  #2E2F42;
 }
 .footer-container{
     display: flex;
-    padding-left: 156px;
+    align-items: baseline;
+    margin-right: 120px;
 }
 .footer-logo-texc{
     padding-right: 269px;
@@ -390,7 +396,7 @@ color: #F4F4FD;
         font-weight: 500;
         line-height: 1.5px;
         letter-spacing: 0.02em;
-        padding-bottom: 16px;
+        margin-bottom: 16px;
 }
   .footer-socialmedia{
       display: flex;
@@ -414,9 +420,10 @@ color: #F4F4FD;
       justify-content: center;
       cursor: pointer;
       transition-property: fill;
-      transition-duration: 250ms;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon:hover{
+.footer-icon:hover,
+.footer-icon:hocus{
 background-color: #31D0AA;
 }
 
