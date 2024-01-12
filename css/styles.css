@@ -268,10 +268,9 @@ color: #ffffff;
  .link-socialmedia:hover,
  .link-socialmedia:focus{
     background-color: #404bbf;
+    fill: #404bbf;
 }
-.link-icon-media{
-    fill: #f4f4fd;
-}
+
 .link-icon{
   background-color: #4D5AE5;
   border-radius: 50%;
@@ -309,14 +308,6 @@ color: #ffffff;
     padding-bottom: 120px;
    
 }
-.container-portfolio-container{
-box-shadow:
-    0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(0%);
-}
 .section-portfolio{
 color:  #2E2F42;
     text-align: center;
@@ -332,8 +323,27 @@ color:  #2E2F42;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    row-gap: 48px;
-    
+    row-gap: 48px; 
+}
+.portfolio-list-item{
+    width: calc((100%-40px) / 3 );
+    position: relative;
+}
+
+.portfolio-cover-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-text-wrap{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 40px 32px 164px 32px;
+    background-color: #4D5AE5;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 300ms linear;
 }
 
 .dodatok{
@@ -351,25 +361,7 @@ color:  #2E2F42;
         margin-bottom: 8px;
 
     }
-.porfolio-fon{
-        position: relative;
-        overflow: hidden;
-        background-color: #4d5ae5;
-        height: 100%;
-        width: 100%;
-        transform: translateY(100%);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        top: 0;
-    }
-.texs{
-    position: absolute;
-    color: #F4F4FD;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 40px 32px;
-}
+
 .portfolio-text{
     color: #434455;
         font-size: 16px;
@@ -449,6 +441,7 @@ color: #F4F4FD;
  .footer-link-socialmedia:hover,
  .footer-link-socialmedia:focus{
     background-color: #31d0aa;
+    fill: #31d0aa;
 }
 
 
