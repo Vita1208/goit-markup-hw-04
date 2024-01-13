@@ -329,10 +329,6 @@ color: #ffffff;
     gap: 24px;
     row-gap: 48px;
 }
-.portfolio-above{
-     align-items: center;
-     overflow: hidden;
-}
 .porfolion-item{
     width: calc((100%-48px) / 3);
     position: relative;
@@ -344,15 +340,14 @@ color: #ffffff;
     position: relative;
     overflow: hidden;
 }
-.portfolio-hover-text{
+.portfolio-hover-text {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     height: 100%;
-
 }
-.color-picturs-style{
+.porfolio-hover-text{
     position: absolute;
     top: 0;
     display: flex;
