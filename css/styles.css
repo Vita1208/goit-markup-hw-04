@@ -328,6 +328,7 @@ color: #ffffff;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    display: flex;
 }
 .porfolion-item{
     width: calc((100%-48px) / 3);
