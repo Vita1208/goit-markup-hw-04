@@ -328,7 +328,7 @@ color: #ffffff;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    display: flex;
+    padding-left: 156px;
 }
 .portfolio-wrap{
     position: relative;
@@ -343,7 +343,6 @@ color: #ffffff;
 .portfolio-item:hover .colors-picturs-style{
     transform: translateY(0);
 }
-  
 
 .colors-picturs-style {
     background-color: #4D5AE5;
@@ -399,6 +398,7 @@ color: #ffffff;
 .footer-container{
     display: flex;
     align-items: baseline;
+    padding-left: 156px;
     
 }
 .footer-logo-texc{
