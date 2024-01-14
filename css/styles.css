@@ -126,7 +126,7 @@ color:#2E2F42;
         to bottom,
         rgba(46, 47, 66, 0.70),
         rgba(46, 47, 66, 0.70)), 
-        url(/images/people-office.jpg);
+        url(../images/people-office.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -171,7 +171,7 @@ color: #ffffff;
  }
 
 .light{
-   padding: 156px 120px;
+   padding: 120px 0;
 }
 .visually-hidden {
     position: absolute;
@@ -207,6 +207,7 @@ color: #ffffff;
     width: calc((100% - 72px) / 4);
 }
 .advantages-subtitle{
+color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -218,10 +219,11 @@ color: #ffffff;
     gap: 24px;
 }
 .advantages-item-text{
-    color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+color:  #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .title{
     background-color: #F4F4FD;
@@ -248,7 +250,6 @@ color: #ffffff;
 .list-team{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 8px;
     box-shadow: 
     0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -263,6 +264,7 @@ color: #ffffff;
 .link-socialmedia{
   width: 40px;
   height: 40px;
+  margin-top: 8px;
  }
 .link-icon:hover,
 .link-icon:focus{
@@ -328,7 +330,6 @@ color: #ffffff;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    padding-left: 156px;
 }
 .portfolio-wrap{
     position: relative;
@@ -398,10 +399,9 @@ color: #ffffff;
 .footer-container{
     display: flex;
     align-items: baseline;
-    padding-left: 156px;
     
 }
-.footer-logo-texc{
+.footer-logo-text {
     padding-right: 269px;
     margin-right: 120px;
 }
